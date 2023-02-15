@@ -1,0 +1,26 @@
+.i-am{
+    margin-top: 0;
+    width: 100%;
+    height: 30em;
+    margin-bottom: 4rem;
+}
+
+.flex-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    & img {
+        width: 30%;
+        order: -1;
+        border-radius: 30%;
+        box-shadow: 2px 2px 3px $border-color;
+        filter:grayscale(1);
+        transition: filter .2s;
+    }
+    & img:hover {
+        filter: none;
+    }
+    @include rwd(600px) {
+        flex-direction: row;
+    }
+}
