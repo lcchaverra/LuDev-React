@@ -54,6 +54,10 @@ class Formulario extends React.Component{
             </>
         )
     }
+
+    // componentDidMount() {
+    //     //Manipulacion de Dom luego que se Renderice
+    // }
 }
 
 export default Formulario
