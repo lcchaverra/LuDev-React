@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import Iam from './components/Iam'
 import AboutMe from './components/AboutMe'
 import MoreMe from './components/MoreMe'
+import Formulario from './components/Formulario'
 import MainFooter from './components/Footer'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -16,6 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <AboutMe/>
     <Iam/>
     <MoreMe/>
+    <Formulario/>
     <MainFooter/>
   </React.StrictMode>,
 )

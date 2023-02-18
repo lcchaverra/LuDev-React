@@ -195,6 +195,7 @@ h3 {
   padding: 1em;
   margin-bottom: 1rem;
   border-radius: .3em;
+  border: none;
   background-color: var(--primary);
   color: var(--button-color);
   will-change: filter background-color;
@@ -234,6 +235,8 @@ h3 {
 
 .flex-container-2 {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   justify-content: space-evenly; }
   .flex-container-2 img {
@@ -282,6 +285,40 @@ h3 {
     padding: 0; }
   .card-content .description {
     overflow: hidden; }
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem; }
+  .form-item input {
+    width: 100%;
+    margin: .6rem;
+    padding: .5em;
+    border-radius: .9rem;
+    border: none;
+    transition: filter .3s; }
+  .form-item input:focus {
+    filter: drop-shadow(0 0 0.1rem #CCC); }
+  .form-item .button {
+    font-size: medium;
+    justify-content: center;
+    width: 100%; }
+
+.message {
+  border: 3px solid #CCC;
+  border-radius: 1rem;
+  width: 70%;
+  text-align: center;
+  padding: 1em;
+  overflow: auto;
+  animation: translucid 10s alternate infinite; }
+
+@keyframes translucid {
+  to {
+    color: var(--bg-color2);
+    background-color: #CCC; } }
 
 .main-footer {
   width: 100%;
