@@ -1,23 +1,32 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Header from './components/Header'
-import MainBanner from './components/MainBanner'
-import Projects from './components/Projects'
-import Iam from './components/Iam'
-import AboutMe from './components/AboutMe'
-import MoreMe from './components/MoreMe'
-import Formulario from './components/Formulario'
-import MainFooter from './components/Footer'
+import { createBrowserRouter, RouterProvider,} from "react-router-dom";
+import HomePage from './HomePage'
+import ProjectsPage from './ProjectsPage'
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomePage />,
+  },
+  {
+    path: "/ProjectsPage",
+    element: <ProjectsPage />,
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Header />
-    <MainBanner/>
-    <Projects/>
-    <AboutMe/>
-    <Iam/>
-    <MoreMe/>
-    <Formulario/>
-    <MainFooter/>
+
+  <RouterProvider router={router} />
+
+        {/* 
+        //Componente De "Educacion" 
+        //Componente Para Experiencia
+        //Componente de Tecnologias / Habilidades Tecnias
+        //Componente de Contacto */}
+        {/* <Formulario/> */}
+        {/* <MainFooter/> */} 
+
   </React.StrictMode>,
 )

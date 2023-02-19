@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import '/src/styles/css/styles.css'
 
-function ProjectCard({title,image,description,link}) {
+function ProjectCard({id,title,image,description,link}) {
     return (
         <>
             <div className="project-card">
@@ -18,6 +18,7 @@ function ProjectCard({title,image,description,link}) {
 }
 
 ProjectCard.prototype = {
+    id: PropTypes.number,
     title: PropTypes.string,
     image: PropTypes.string,
     description: PropTypes.string,
@@ -25,6 +26,7 @@ ProjectCard.prototype = {
 }
 
 ProjectCard.defaultProps = {
+    id: "#",
     title: "No hay titulo",
     image: "/src/img/projects/no-image.png",
     description: "No hay Descripción-----",

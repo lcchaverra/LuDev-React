@@ -1,14 +1,15 @@
 import React from 'react'
-
+import { Link } from "react-router-dom";
 function MainMenu() {
     return (
         <>
             <nav className="main-nav" id="main-nav">
                 <ul className="main-menu">
-                    <li className="main-menu__item"><a href="#" className="main-menu__link">Proyectos</a></li>
-                    <li className="main-menu__item"><a href="#" className="main-menu__link">Experiencias</a></li>
-                    <li className="main-menu__item"><a href="#" className="main-menu__link">Acerca de Mi</a></li>
-                    <li className="main-menu__item"><a href="#" className="main-menu__link">Contactame</a></li>
+                <li className="main-menu__item"><Link to="/" className="main-menu__link">Inicio</Link></li>
+                    <li className="main-menu__item"><Link to="/ProjectsPage" className="main-menu__link">Proyectos</Link></li>
+                    <li className="main-menu__item"><Link to="/" className="main-menu__link">Experiencias</Link></li>
+                    <li className="main-menu__item"><Link to="/" className="main-menu__link">Habilidades</Link></li>
+                    <li className="main-menu__item"><Link to="/" className="main-menu__link">Contactame</Link></li>
                 </ul>
             </nav>
         </>
