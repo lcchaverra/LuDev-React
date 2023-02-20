@@ -364,3 +364,8 @@ h3 {
       font-size: 2em; }
   .main-footer p, .main-footer span {
     padding-right: 1rem; }
+  .main-footer p {
+    display: none; }
+    @media screen and (min-width: 960px) {
+      .main-footer p {
+        display: flex; } }

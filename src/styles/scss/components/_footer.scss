@@ -20,4 +20,10 @@
     & p,span {
         padding-right: 1rem;
     }
+    & p{
+        display: none;
+        @include rwd(l){
+            display: flex;
+        }
+    }
 }

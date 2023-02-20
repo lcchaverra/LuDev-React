@@ -8,7 +8,7 @@ const projects = [
         "image": "/src/img/projects/p1.png",
         "title": "Balafón Coffe",
         "description": "Proyecto Universitario para la Asignatura de 'Ingenieria del Sofware I & II'",
-        "link": "#"
+        "link": "https://resplendent-longma-88c236.netlify.app/"
     },
     {
         "id": 2,
@@ -22,21 +22,21 @@ const projects = [
         "image": "/src/img/projects/p3.png",
         "title": "Lu Dev" ,
         "description": "Taller Practico del curso de maquetacion en HTML y CSS de EDTeam",
-        "link": "#"
+        "link": "https://serene-concha-96547c.netlify.app/"
     },
     {
         "id": 4,
         "image": "/src/img/projects/p4.png",
         "title": "Balaffón Coffe v2" ,
         "description": "Pagina Elaborada como practica de conocimientos en Sass",
-        "link": "#"
+        "link": "https://heroic-malasada-5be4a2.netlify.app/"
     },
     {
         "id": 5,
         "image": "/src/img/projects/p5.png",
         "title": "Landing Page RWD" ,
         "description": "Taller del curso de Responsive Web Desing de EDTeam",
-        "link": "#"
+        "link": "https://dainty-mousse-4ae4bd.netlify.app/"
     }
     ,
     {
@@ -52,7 +52,7 @@ const projects = [
         "image": "/src/img/projects/p6.png",
         "title": "EPSTRACKER Altenrativa" ,
         "description": "Version Preliminar de la Web Ganadora de la Competencia Hack The World 2022",
-        "link": "#"
+        "link": "https://heroic-donut-23023b.netlify.app/"
     }
 ]
 
@@ -70,7 +70,7 @@ function Projects() {
                     description={proyecto.description} 
                     link={proyecto.link} />)
                 }
-                    <ProjectCard/>
+                    {/* <ProjectCard/> */}
             </div>
         </>
     )
