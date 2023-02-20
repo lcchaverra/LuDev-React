@@ -10,7 +10,7 @@ function ProjectCard({id,title,image,description,link}) {
                 <div className="card-content">
                     <h3 className="title">{title}</h3>
                     <p className="description">{description}</p>
-                    <a href={link} className="button">Ir al Proyecto '{title}'</a>
+                    <a href={link} target="_blank" className="button">Ir al Proyecto '{title}'</a>
                 </div>
             </div>
         </>

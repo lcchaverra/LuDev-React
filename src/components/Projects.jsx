@@ -15,7 +15,7 @@ const projects = [
         "image": "/src/img/projects/p2.png",
         "title": "CEI" ,
         "description": "Proyecto entregado al CEI de la UTCH",
-        "link": "#"
+        "link": "https://cei-utch.000webhostapp.com/"
     },
     {
         "id": 3,
