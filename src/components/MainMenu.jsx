@@ -8,7 +8,8 @@ function MainMenu() {
                 <li className="main-menu__item"><Link to="/" className="main-menu__link">Inicio</Link></li>
                     <li className="main-menu__item"><Link to="/ProjectsPage" className="main-menu__link">Proyectos</Link></li>
                     <li className="main-menu__item"><Link to="/ExperiencePage" className="main-menu__link">Experiencias</Link></li>
-                    <li className="main-menu__item"><Link to="/" className="main-menu__link">Habilidades</Link></li>
+                    <li className="main-menu__item"><Link to="/SkillsPage" className="main-menu__link">Habilidades</Link></li>
+                    <li className="main-menu__item"><Link to="/RetoPage" className="main-menu__link">Reto</Link></li>
                 </ul>
             </nav>
         </>

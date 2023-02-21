@@ -4,6 +4,8 @@ import { createBrowserRouter, RouterProvider,} from "react-router-dom";
 import HomePage from './HomePage'
 import ExperiencePage from './ExperiencePage';
 import ProjectsPage from './ProjectsPage'
+import SkillsPage from './SkillsPage'
+import RetoPage from './RetoPage'
 
 const router = createBrowserRouter([
   {
@@ -18,20 +20,18 @@ const router = createBrowserRouter([
     path: "/ExperiencePage",
     element: <ExperiencePage />,
   },
+  {
+    path: "/SkillsPage",
+    element: <SkillsPage />,
+  },
+  {
+    path: "/RetoPage",
+    element: <RetoPage />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-
   <RouterProvider router={router} />
-
-        {/* 
-        //Componente De "Educacion" 
-        //Componente Para Experiencia
-        //Componente de Tecnologias / Habilidades Tecnias
-        //Componente de Contacto */}
-        {/* <Formulario/> */}
-        {/* <MainFooter/> */} 
-
   </React.StrictMode>,
 )

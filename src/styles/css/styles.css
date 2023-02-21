@@ -230,7 +230,6 @@ h3 {
 .i-am {
   margin-top: 0;
   width: 100%;
-  height: 30em;
   margin-bottom: 4rem; }
 
 .flex-container-2 {
@@ -311,6 +310,26 @@ h3 {
   box-shadow: none;
   filter: none; }
 
+.SkillsGrid {
+  margin: 1rem 5rem;
+  display: grid;
+  padding: 2rem;
+  gap: 2em;
+  grid-template-columns: repeat(1, 1fr); }
+  @media screen and (min-width: 580px) {
+    .SkillsGrid {
+      grid-template-columns: repeat(3, 1fr); } }
+  @media screen and (min-width: 960px) {
+    .SkillsGrid {
+      grid-template-columns: repeat(6, 1fr); } }
+  .SkillsGrid img {
+    width: 100%;
+    will-change: transform, filter;
+    transition: transform .3s, filter .3s; }
+  .SkillsGrid img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 1rem var(--primary)); }
+
 .form-item {
   display: flex;
   flex-direction: column;
@@ -318,7 +337,6 @@ h3 {
   justify-content: center;
   margin-bottom: 3rem; }
   .form-item input {
-    width: 100%;
     margin: .6rem;
     padding: .5em;
     border-radius: .9rem;
@@ -329,6 +347,8 @@ h3 {
   .form-item .button {
     font-size: medium;
     justify-content: center;
+    width: 100%; }
+  .form-item .Large-Imput {
     width: 100%; }
 
 .message {
