@@ -1,4 +1,13 @@
 import React from 'react'
+import HTMLImg from '/src/img/tec/html-5.png';
+import CssImg from '/src/img/tec/css-3.png';
+import JsImg from '/src/img/tec/js.png';
+import MongoImg from '/src/img/tec/mongo.png';
+import PhpImg from '/src/img/tec/php.png';
+import GitImg from '/src/img/tec/git.png';
+import CsharpImg from '/src/img/tec/c-sharp.png';
+import SqlImg from '/src/img/tec/sql-server.png';
+import ReactImg from '/src/img/tec/react.png';
 
 const Skills = () => {
     return(
@@ -13,15 +22,15 @@ const Skills = () => {
                 </div>
             </div>
             <div className='SkillsGrid'>
-                <img src='/src/img/tec/html-5.png' />
-                <img src='/src/img/tec/css-3.png' />
-                <img src='/src/img/tec/js.png' />
-                <img src='/src/img/tec/mongo.png' />
-                <img src='/src/img/tec/php.png' />
-                <img src='/src/img/tec/git.png' />
-                <img src='/src/img/tec/c-sharp.png' />
-                <img src='/src/img/tec/sql-server.png' />
-                <img src='/src/img/tec/react.png' />
+                <img src={HTMLImg} />
+                <img src={CssImg} />
+                <img src={JsImg} />
+                <img src={MongoImg} />
+                <img src={PhpImg} />
+                <img src={GitImg} />
+                <img src={CsharpImg} />
+                <img src={SqlImg} />
+                <img src={ReactImg} />
             </div>
         </section>
         </>

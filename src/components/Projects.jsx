@@ -1,39 +1,47 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 import '/src/styles/css/styles.css'
+// Importacion de Imagenes
+import P1Img from '/src/img/projects/p1.png';
+import P2Img from '/src/img/projects/p2.png';
+import P3Img from '/src/img/projects/p3.png';
+import P4Img from '/src/img/projects/p4.png';
+import P5Img from '/src/img/projects/p5.png';
+import P6Img from '/src/img/projects/p6.png';
+import P7Img from '/src/img/projects/p7.png';
 
 const projects = [
     {   
         "id": 1,
-        "image": "/src/img/projects/p1.png",
+        "image": P1Img,
         "title": "Balafón Coffe",
         "description": "Proyecto Universitario para la Asignatura de 'Ingenieria del Sofware I & II'",
         "link": "https://resplendent-longma-88c236.netlify.app/"
     },
     {
         "id": 2,
-        "image": "/src/img/projects/p2.png",
+        "image": P2Img,
         "title": "CEI" ,
         "description": "Proyecto entregado al CEI de la UTCH",
         "link": "https://cei-utch.000webhostapp.com/"
     },
     {
         "id": 3,
-        "image": "/src/img/projects/p3.png",
+        "image": P3Img,
         "title": "Lu Dev" ,
         "description": "Taller Practico del curso de maquetacion en HTML y CSS de EDTeam",
         "link": "https://serene-concha-96547c.netlify.app/"
     },
     {
         "id": 4,
-        "image": "/src/img/projects/p4.png",
+        "image": P4Img,
         "title": "Balaffón Coffe v2" ,
         "description": "Pagina Elaborada como practica de conocimientos en Sass",
         "link": "https://heroic-malasada-5be4a2.netlify.app/"
     },
     {
         "id": 5,
-        "image": "/src/img/projects/p5.png",
+        "image": P5Img,
         "title": "Landing Page RWD" ,
         "description": "Taller del curso de Responsive Web Desing de EDTeam",
         "link": "https://dainty-mousse-4ae4bd.netlify.app/"
@@ -41,7 +49,7 @@ const projects = [
     ,
     {
         "id": 6,
-        "image": "/src/img/projects/p7.png",
+        "image": P6Img,
         "title": "EPSTRACKER" ,
         "description": "Version Final de la Web Ganadora de la Competencia Hack The World 2022",
         "link": "#"
@@ -49,7 +57,7 @@ const projects = [
     ,
     {
         "id": 7,
-        "image": "/src/img/projects/p6.png",
+        "image": P7Img,
         "title": "EPSTRACKER Altenrativa" ,
         "description": "Version Preliminar de la Web Ganadora de la Competencia Hack The World 2022",
         "link": "https://heroic-donut-23023b.netlify.app/"
