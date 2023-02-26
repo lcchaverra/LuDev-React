@@ -9,8 +9,16 @@ import P4Img from '/src/img/projects/p4.png';
 import P5Img from '/src/img/projects/p5.png';
 import P6Img from '/src/img/projects/p6.png';
 import P7Img from '/src/img/projects/p7.png';
+import P8Img from '/src/img/projects/p8.png';
 
 const projects = [
+        {
+        "id": 8,
+        "image": P8Img,
+        "title": "FlyChallenge" ,
+        "description": "App web en React Ganadora del Flychallenge de Helppeople",
+        "link": "https://playful-cobbler-fa8de9.netlify.app/"
+    },
     {   
         "id": 1,
         "image": P1Img,
@@ -61,7 +69,7 @@ const projects = [
         "title": "EPSTRACKER Altenrativa" ,
         "description": "Version Preliminar de la Web Ganadora de la Competencia Hack The World 2022",
         "link": "https://heroic-donut-23023b.netlify.app/"
-    }
+    },
 ]
 
 function Projects() {
