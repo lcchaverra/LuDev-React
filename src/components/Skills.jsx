@@ -8,6 +8,9 @@ import GitImg from '/src/img/tec/git.png';
 import CsharpImg from '/src/img/tec/c-sharp.png';
 import SqlImg from '/src/img/tec/sql-server.png';
 import ReactImg from '/src/img/tec/react.png';
+import TailwindImg from '/src/img/tec/Tailwind.png';
+import TSImg from '/src/img/tec/Ts.png';
+import FirebaseImg from '/src/img/tec/fire.png';
 
 const Skills = () => {
     return(
@@ -31,6 +34,9 @@ const Skills = () => {
                 <img src={CsharpImg} />
                 <img src={SqlImg} />
                 <img src={ReactImg} />
+                <img src={TailwindImg}/>
+                <img src={TSImg}/>
+                <img src={FirebaseImg}/>
             </div>
         </section>
         </>
