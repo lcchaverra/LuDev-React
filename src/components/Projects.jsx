@@ -10,6 +10,7 @@ import P5Img from '/src/img/projects/p5.png';
 import P6Img from '/src/img/projects/p6.png';
 import P7Img from '/src/img/projects/p7.png';
 import P8Img from '/src/img/projects/p8.png';
+import P9Img from '/src/img/projects/p9.png';
 
 const projects = [
         {
@@ -69,6 +70,13 @@ const projects = [
         "title": "EPSTRACKER Altenrativa" ,
         "description": "Version Preliminar de la Web Ganadora de la Competencia Hack The World 2022",
         "link": "https://heroic-donut-23023b.netlify.app/"
+    },
+    {
+        "id": 9,
+        "image": P9Img,
+        "title": "Digital Ocean Home (Test)",
+        "description": "Maquetacion de Homepage de Digital Ocean con Tailwind (solo practica)",
+        "link": "https://digital-ocean-hometest.netlify.app/"
     },
 ]
 
