@@ -18,14 +18,14 @@ const projects = [
         "image": P8Img,
         "title": "FlyChallenge" ,
         "description": "App web en React Ganadora del Flychallenge de Helppeople",
-        "link": "https://playful-cobbler-fa8de9.netlify.app/"
+        "link": "https://flychallenge.netlify.app/"
     },
     {   
         "id": 1,
         "image": P1Img,
         "title": "Balafón Coffe",
         "description": "Proyecto Universitario para la Asignatura de 'Ingenieria del Sofware I & II'",
-        "link": "https://resplendent-longma-88c236.netlify.app/"
+        "link": "https://balaffon-v1.netlify.app/"
     },
     {
         "id": 2,
@@ -39,21 +39,21 @@ const projects = [
         "image": P3Img,
         "title": "Lu Dev" ,
         "description": "Taller Practico del curso de maquetacion en HTML y CSS de EDTeam",
-        "link": "https://serene-concha-96547c.netlify.app/"
+        "link": "https://lu-developer.netlify.app/"
     },
     {
         "id": 4,
         "image": P4Img,
         "title": "Balaffón Coffe v2" ,
         "description": "Pagina Elaborada como practica de conocimientos en Sass",
-        "link": "https://heroic-malasada-5be4a2.netlify.app/"
+        "link": "https://balaffon-v2.netlify.app/"
     },
     {
         "id": 5,
         "image": P5Img,
         "title": "Landing Page RWD" ,
         "description": "Taller del curso de Responsive Web Desing de EDTeam",
-        "link": "https://dainty-mousse-4ae4bd.netlify.app/"
+        "link": "https://landing-rwd.netlify.app/"
     }
     ,
     {
@@ -69,7 +69,7 @@ const projects = [
         "image": P7Img,
         "title": "EPSTRACKER Altenrativa" ,
         "description": "Version Preliminar de la Web Ganadora de la Competencia Hack The World 2022",
-        "link": "https://heroic-donut-23023b.netlify.app/"
+        "link": "https://epstracker-v1.netlify.app/"
     },
     {
         "id": 9,

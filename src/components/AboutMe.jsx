@@ -1,29 +1,32 @@
 import React from "react";
-import HelloImg from '/src/img/conTraje.png';
-import '/src/styles/css/styles.css'
+import HelloImg from "/src/img/baitface/4.png";
+import "/src/styles/css/styles.css";
 
 const AboutMe = () => {
-    return(
-        <>
+  return (
+    <>
+      <div className="section-divider"></div>
+      <section className="about-me">
+        <div className="main-container">
+          <h1 className="title">¡Hola!</h1>
+          <div className="grid-container">
+            <img src={HelloImg} alt="Mi foto" />
+            <p>
+              Hola soy Lucas Chaverra, Soy un desarrollador frontend y de
+              aplicaciones de escritorio con ganas de aprender y crecer en mi
+              carrera. Siempre estoy dispuesto a asumir nuevos desafíos y a
+              trabajar en proyectos emocionantes que me permitan mejorar mis
+              habilidades y expandir mis horizontes.
+              <br />
+              <br />
+              <em>Como proxima Meta tengo Aprender sobre desarrollo Movil</em>
+            </p>
+          </div>
+        </div>
         <div className="section-divider"></div>
-        <section className="about-me">
-            <div className="main-container">
-                <h1 className="title">¡Hola!</h1>
-                <div className="grid-container">
-                    <img src={HelloImg} alt="Mi foto" />
-                    <p>Hola soy Lucas Chaverra, me dedico al Desarrollo de software con enfoque en el Frontend(En lo web) y apps de
-                        Escritorio, estudiante autodidacta con muchos animos de aprender
-                        cosas nuevas y fomentar conocimientos ya adquiridos.<br /><br />
-                        <em>
-                        Como proxima Meta tengo Aprender sobre desarrollo Movil :D
-                        </em>
-                    </p>
-                </div>
-            </div>
-            <div className="section-divider"></div>
-        </section>
-        </>
-    )
-}
+      </section>
+    </>
+  );
+};
 
-export default AboutMe
+export default AboutMe;

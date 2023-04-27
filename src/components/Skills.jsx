@@ -11,6 +11,7 @@ import ReactImg from '/src/img/tec/react.png';
 import TailwindImg from '/src/img/tec/Tailwind.png';
 import TSImg from '/src/img/tec/Ts.png';
 import FirebaseImg from '/src/img/tec/fire.png';
+import ReduxImg from '/src/img/tec/redux.png'
 
 const Skills = () => {
     return(
@@ -37,6 +38,7 @@ const Skills = () => {
                 <img src={TailwindImg}/>
                 <img src={TSImg}/>
                 <img src={FirebaseImg}/>
+                <img src={ReduxImg}/>
             </div>
         </section>
         </>

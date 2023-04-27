@@ -1,5 +1,5 @@
 import React from 'react'
-import BannerImg from '/src/img/foto_perfil.jpg';
+import BannerImg from '/src/img/baitface/6.png';
 import '/src/styles/css/styles.css'
 
 const MainBanner = () => {
@@ -7,7 +7,7 @@ const MainBanner = () => {
         <>
         <section className="main-section-banner">
             <div className="main-section-content">
-                <p>Hola, soy <strong>Lucas Chaverra C.</strong><br/> Desarrollador Frontend, ¡Bienvenid@!</p>
+                <p>Hola, soy <strong>Luis Carlos Chaverra C.</strong><br/> Desarrollador Frontend, ¡Bienvenid@!</p>
             </div>
             <div className="main-section-img">
                 <img src={BannerImg} alt="Foto de Perfil" />
