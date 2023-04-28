@@ -47,7 +47,7 @@ const Experience = () => {
 
               <li>
                 <strong>
-                  Desarrollador de Software (Feb 2023 - Actualidad)
+                  Desarrollador de Software (Feb 2023 - Abr 2023)
                 </strong>
                 <br /> Helppeople <br />{" "}
                 <ol>
