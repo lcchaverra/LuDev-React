@@ -6,6 +6,7 @@ import ExperiencePage from './ExperiencePage';
 import ProjectsPage from './ProjectsPage'
 import SkillsPage from './SkillsPage'
 import RetoPage from './RetoPage'
+import '/src/styles/css/styles.css'
 
 const router = createBrowserRouter([
   {

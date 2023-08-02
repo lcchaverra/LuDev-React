@@ -1,6 +1,4 @@
-import React from "react";
 import MeImg from '/src/img/me.jpeg';
-import '/src/styles/css/styles.css'
 
 const Iam = () => {
     return(

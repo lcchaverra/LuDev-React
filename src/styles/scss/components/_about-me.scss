@@ -5,21 +5,31 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns:  auto;
     gap: 2rem;
     grid-auto-flow: column;
+
     & img {
-        height: 16rem;
+        display: none;
+        height: auto;
+        max-width: 100%;
         order: 1;
         border-radius: 50%;
         box-shadow: 1px 1px 5px $border-color;
         filter:grayscale(1);
         transition: filter .2s;
+        z-index: 1;
     }
     & img:hover {
         filter: none;
     }
     @include rwd(l) {
         grid-template-columns: repeat(2,70% 30%);
+
+        & img {
+            display: block;
+            height: auto;
+            max-width: 100%;
+        }
     }
 }

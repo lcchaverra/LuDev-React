@@ -1,6 +1,3 @@
-import React from "react";
-import "/src/styles/css/styles.css";
-
 const MoreMe = () => {
   return (
     <>
@@ -9,7 +6,7 @@ const MoreMe = () => {
           <h1 className="title">Acerca</h1>
           <div className="flex-container-2">
             <p>
-              Desde mi juventud, he sentido una gran pasión por el mundo de la
+              Desde mi adolescencia, he sentido una gran pasión por el mundo de la
               tecnología, lo que me ha llevado a explorar diversas áreas en este
               campo. Entre ellas, he incursionado en el desarrollo de páginas
               web, en donde he tenido la oportunidad de trabajar en diferentes

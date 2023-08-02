@@ -1,6 +1,4 @@
-import React from 'react'
 import PropTypes from 'prop-types'
-import '/src/styles/css/styles.css'
 
 function ProjectCard({id,title,image,description,link}) {
     return (

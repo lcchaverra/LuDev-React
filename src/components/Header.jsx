@@ -1,7 +1,5 @@
-import React from 'react'
 import MainMenu from './MainMenu'
 import logo from '/src/img/Logo uwu.png';
-import '/src/styles/css/styles.css'
 
 function Header() {
     return (

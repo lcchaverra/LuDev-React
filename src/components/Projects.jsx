@@ -1,6 +1,5 @@
-import React from 'react'
 import ProjectCard from './ProjectCard'
-import '/src/styles/css/styles.css'
+
 // Importacion de Imagenes
 import P1Img from '/src/img/projects/p1.png';
 import P2Img from '/src/img/projects/p2.png';

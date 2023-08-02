@@ -1,6 +1,4 @@
-import React from "react";
 import HelloImg from "/src/img/baitface/4.png";
-import "/src/styles/css/styles.css";
 
 const AboutMe = () => {
   return (

@@ -1,6 +1,4 @@
-import React from 'react'
 import EducationImg from '/src/img/stickers/grafico-de-barras.png';
-import '/src/styles/css/styles.css'
 
 const Education = () => {
     return (
@@ -13,6 +11,7 @@ const Education = () => {
                         <ul>
                             <li><strong>Ingeniero de Sistemas (2023)</strong> - Fundacion Universitaria Claretiana "Uniclaretiana"</li>
                             <li><strong>Curso de Desarrollo Web Front end HTML y CSS (2021)</strong> - Crehana</li>
+                            <li><strong>Bootcamp de Desarrollo de software (2023)</strong> - Rio Software / Escuela de Robótica del Chocó</li>
                             <li>Nivel <strong>B1</strong> en Inglés (Certificado)</li>
                         </ul>
                 </div>

@@ -1,6 +1,4 @@
-import React from "react";
 import ExperienceImg from "/src/img/stickers/oficina.png";
-import "/src/styles/css/styles.css";
 
 const Experience = () => {
   return (
@@ -13,54 +11,63 @@ const Experience = () => {
             <ul className="letter-small">
               <li>
                 <strong>
-                  Desarrollador FullStack(Freelance) (2022 - Actualidad)
-                </strong>{" "}
-                <br /> Proyecto - Aplicatio Web Para El Centro de Emprendimiento
-                e Innovacion "CEI" <br />{" "}
-                <em>
-                  Participe en la elaboracion del aplicativo web para el CEI de
-                  la universidad tecnologica del chocó.
-                </em>
+                  Fundador, Representante legal y Desarrollador de Software en
+                  Facnet (Mar 2019 - Actualidad)
+                </strong>
+                <p>
+                  <ol>
+                    <li>
+                      Lideré y participé en múltiples proyectos de software,
+                      desempeñando roles como Líder de Equipo y Desarrollador
+                      Fullstack.
+                    </li>
+                    <li>
+                      Logré cumplir con éxito los requerimientos del cliente y
+                      obtener los resultados esperados en cada proyecto.
+                    </li>
+                    <li>
+                      Utilicé tecnologías como HTML, CSS, JavaScript, PHP, SQL,
+                      y otras, para el desarrollo de soluciones eficientes y de
+                      alta calidad.
+                    </li>
+                  </ol>
+                </p>
               </li>
-              <hr />
-
-              <li>
-                <strong>Desarrollador Frontend (Nov 2022)</strong>
-                <br /> Rio Software - Hackathon/Hack the Word - <br />{" "}
-                <ol>
-                  <li>
-                    Participé en una hackathon organizada por la empresa y
-                    obtuve el segundo lugar en la competencia.
-                  </li>
-                  <li>
-                    Desarrollé y diseñé aplicaciones web utilizando tecnologías
-                    como HTML, CSS, SASS, JavaScript, y PHP.
-                  </li>
-                  <li>
-                    Colaboré en la creación y mantenimiento de bases de datos
-                    SQL.
-                  </li>
-                </ol>
-              </li>
-
               <hr />
 
               <li>
                 <strong>
-                  Desarrollador de Software (Feb 2023 - Abr 2023)
+                  Desarrollador de Software en Helppeople Cloud (Feb 2023 - Abr
+                  2023)
                 </strong>
-                <br /> Helppeople <br />{" "}
-                <ol>
-                  <li>
-                    Participé en el Flychallenge organizado por la empresa
-                    Diseñé y desarrollé aplicaciones web utilizando tecnologías
-                    como React y Firebase.
-                  </li>
-                  <li>
-                    Desarrollé tanto el frontend como el backend del proyecto.
-                  </li>
-                  <li>Gané la competencia y obtuve un empleo en la empresa.</li>
-                </ol>
+                <p>
+                  Participé en el Flychallenge organizado por la empresa Pdonde
+                  salí ganador y obtuve el empleo, Diseñé y desarrollé
+                  aplicaciones web utilizando tecnologías como React y .NET, me
+                  desenpeñé en ambos roles tanto frontend como el backend.
+                </p>
+              </li>
+              <hr />
+
+              <li>
+                <strong>
+                  Voluntariado Idiomas en Señas (Jul 2023 - Actualidad)
+                </strong>
+                <p>
+                  Desarrollé una landing page con React Para la iniciativa de
+                  idiomas en señas donde desempeñe mi rol como fullstack.
+                </p>
+              </li>
+              <hr />
+
+              <li>
+                <strong>Pasante en Rentic SAS (Mar 2023 - Jun 2023)</strong>
+                <p>
+                  Desarrollé una plataforma web para el monitoreo del
+                  funcionamiento de sistemas de energía renovable sostenibles
+                  para brindarle una solución escalable a la empresa utilizando
+                  Makoserver y el lenguaje Lua.
+                </p>
               </li>
             </ul>
           </div>

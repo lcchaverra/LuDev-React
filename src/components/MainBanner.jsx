@@ -1,6 +1,4 @@
-import React from 'react'
 import BannerImg from '/src/img/baitface/6.png';
-import '/src/styles/css/styles.css'
 
 const MainBanner = () => {
     return (

@@ -1,6 +1,3 @@
-import React from 'react'
-import '/src/styles/css/styles.css'
-
 const MainFooter = () => {
     return (
         <>
