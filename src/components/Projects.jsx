@@ -10,8 +10,33 @@ import P6Img from '/src/img/projects/p6.png';
 import P7Img from '/src/img/projects/p7.png';
 import P8Img from '/src/img/projects/p8.png';
 import P9Img from '/src/img/projects/p9.png';
+import P10Img from '/src/img/projects/p10.png';
+import P11Img from '/src/img/projects/p11.png';
+import P12Img from '/src/img/projects/p12.png';
+import P13Img from '/src/img/projects/p13.png';
 
 const projects = [
+    {
+        "id": 13,
+        "image": P13Img,
+        "title": "Blog Fiestas Patronales" ,
+        "description": "Blog para las Fiestas Patronales San Roque edicion 2023",
+        "link": "https://blog-fiestas-patronales.netlify.app/post-details-1"
+    },
+    {
+        "id": 12,
+        "image": P12Img,
+        "title": "Idiomas en Señas" ,
+        "description": "Landing Page realizada para el voluntareado de idiomas en señas",
+        "link": "https://idiomas-en-senas.netlify.app/"
+    },
+    {
+        "id": 11,
+        "image": P11Img,
+        "title": "CEI" ,
+        "description": "Aplicativo web para la simulacion de planes de negocios entregado al Centro de emprendimiento e innovacion (CEI)",
+        "link": "http://centro-de-emprendimiento-e-innovacion-utch.com/"
+    },
         {
         "id": 8,
         "image": P8Img,
@@ -27,11 +52,11 @@ const projects = [
         "link": "https://balaffon-v1.netlify.app/"
     },
     {
-        "id": 2,
-        "image": P2Img,
-        "title": "CEI" ,
-        "description": "Proyecto entregado al CEI de la UTCH",
-        "link": "https://cei-utch.000webhostapp.com/"
+        "id": 10,
+        "image": P10Img,
+        "title": "Clon de Instagram" ,
+        "description": "Proyecto realizado en la culminacion del primer modulo del bootcmap de desarrollo de software / Rio software",
+        "link": "https://instagram-copy-pf.netlify.app/"
     },
     {
         "id": 3,
