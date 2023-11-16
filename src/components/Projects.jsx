@@ -1,6 +1,4 @@
 import ProjectCard from "./ProjectCard";
-import {TailSpin} from 'react-loader-spinner';
-import { useEffect, useState } from "react";
 
 // Importacion de Imagenes
 import P1Img from "/src/img/projects/p1.png";
@@ -112,45 +110,20 @@ const projects = [
   },
 ];
 
-
 function Projects() {
-  const [loading, setLoading] = useState(true);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(()=>{
-    setMounted(true);
-    setLoading(false)
-  },[])
-  
   return (
     <>
       <h2 className="title">Proyectos</h2>
       <div className="projects-grid-container">
-      {loading?
-      (
-        <TailSpin
-        height="500"
-        width="500"
-        color="#F44459"
-        ariaLabel="tail-spin-loading"
-        radius="1"
-        wrapperStyle={{display: "flex", justifyContent: 'center', alignItems: 'center'}}
-        wrapperClass=""
-        visible={true}
-      />
-        )
-        :(
-          projects.map((proyecto) => (
-            <ProjectCard
-              key={proyecto.id}
-              image={proyecto.image}
-              title={proyecto.title}
-              description={proyecto.description}
-              link={proyecto.link}
-            />
-          ))
-        )
-      }
+        {projects.map((proyecto) => (
+          <ProjectCard
+            key={proyecto.id}
+            image={proyecto.image}
+            title={proyecto.title}
+            description={proyecto.description}
+            link={proyecto.link}
+          />
+        ))}
       </div>
     </>
   );
