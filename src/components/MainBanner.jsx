@@ -3,7 +3,7 @@ import BannerImg from '/src/img/baitface/6.png';
 const MainBanner = () => {
     return (
         <>
-        <section className="main-section-banner">
+        <section className="main-section-banner" data-aos="zoom-in">
             <div className="main-section-content">
                 <p>Hola, soy <strong>Luis Carlos Chaverra C.</strong><br/> Desarrollador Frontend, ¡Bienvenid@!</p>
             </div>

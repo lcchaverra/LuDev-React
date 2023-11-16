@@ -7,6 +7,8 @@ import ProjectsPage from './ProjectsPage'
 import SkillsPage from './SkillsPage'
 import RetoPage from './RetoPage'
 import '/src/styles/css/styles.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const router = createBrowserRouter([
   {

@@ -12,11 +12,13 @@ import TailwindImg from '/src/img/tec/Tailwind.png';
 import TSImg from '/src/img/tec/Ts.png';
 import FirebaseImg from '/src/img/tec/fire.png';
 import ReduxImg from '/src/img/tec/redux.png'
+import pyImg from '/src/img/tec/py.png'
+import sassImg from '/src/img/tec/sass.png'
 
 const Skills = () => {
     return(
         <>
-        <section className="i-am">
+        <section className="i-am" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
             <div className="main-container">
                 <h1 className="title">Habilidades Tecnicas</h1>
                 <div className="flex-container-2">
@@ -28,17 +30,19 @@ const Skills = () => {
             <div className='SkillsGrid'>
                 <img src={HTMLImg} />
                 <img src={CssImg} />
+                <img src={sassImg}/>
                 <img src={JsImg} />
-                <img src={MongoImg} />
+                <img src={TSImg}/>
+                <img src={ReactImg} />
+                <img src={ReduxImg}/>
+                <img src={TailwindImg}/>
                 <img src={PhpImg} />
-                <img src={GitImg} />
+                <img src={pyImg}/>
                 <img src={CsharpImg} />
                 <img src={SqlImg} />
-                <img src={ReactImg} />
-                <img src={TailwindImg}/>
-                <img src={TSImg}/>
+                <img src={MongoImg} />
                 <img src={FirebaseImg}/>
-                <img src={ReduxImg}/>
+                <img src={GitImg} />
             </div>
         </section>
         </>

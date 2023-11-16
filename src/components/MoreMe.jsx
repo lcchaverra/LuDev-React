@@ -2,7 +2,7 @@ const MoreMe = () => {
   return (
     <>
       <section className="about">
-        <div className="main-container">
+        <div className="main-container" data-aos="fade-down">
           <h1 className="title">Acerca</h1>
           <div className="flex-container-2">
             <p>

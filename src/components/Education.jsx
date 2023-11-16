@@ -3,7 +3,7 @@ import EducationImg from '/src/img/stickers/grafico-de-barras.png';
 const Education = () => {
     return (
         <>
-        <section className="i-am">
+        <section className="i-am" data-aos="fade-up" data-aos-duration="1000">
             <div className="main-container">
                 <h1 className="title">Educación</h1>
                 <div className="flex-container-2">

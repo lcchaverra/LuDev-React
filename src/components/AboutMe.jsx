@@ -5,7 +5,7 @@ const AboutMe = () => {
     <>
       <div className="section-divider"></div>
       <section className="about-me">
-        <div className="main-container">
+        <div className="main-container" data-aos="fade-up">
           <h1 className="title">¡Hola!</h1>
           <div className="grid-container">
             <img src={HelloImg} alt="Mi foto" />

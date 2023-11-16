@@ -3,7 +3,7 @@ import ExperienceImg from "/src/img/stickers/oficina.png";
 const Experience = () => {
   return (
     <>
-      <section className="i-am">
+      <section className="i-am" data-aos="zoom-out-down">
         <div className="main-container">
           <h1 className="title">Experiencia</h1>
           <div className="flex-container-2">
@@ -12,7 +12,7 @@ const Experience = () => {
               <li>
                 <strong>
                   Fundador, Representante legal y Desarrollador de Software en
-                  Facnet (Mar 2019 - Actualidad)
+                  Facnet (Mar 2022 - Actualidad)
                 </strong>
                 <p>
                   <ol>

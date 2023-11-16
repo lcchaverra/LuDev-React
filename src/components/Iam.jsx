@@ -3,7 +3,7 @@ import MeImg from '/src/img/me.jpeg';
 const Iam = () => {
     return(
         <>
-        <section className="i-am">
+        <section className="i-am" data-aos="fade-right">
         <div className="main-container">
             <h1 className="title">Yo Soy</h1>
             <div className="flex-container-2">
