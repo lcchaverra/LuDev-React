@@ -12,8 +12,10 @@
 }
 
 .project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: var(--bg-color);
-    // border: .1rem solid var(--letter-color);
     box-shadow: 1px 1px 2px $border-color;
     border-radius: .7rem;
     & .card-banner {
@@ -36,5 +38,6 @@
     }
     & .description{
         overflow: hidden;
+        padding: 0 1.1rem;
     }
 }

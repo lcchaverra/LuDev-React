@@ -1,4 +1,4 @@
-import BannerImg from '/src/img/baitface/6.png';
+import BannerImg from '/src/img/baitface/1.jpeg';
 
 const MainBanner = () => {
     return (

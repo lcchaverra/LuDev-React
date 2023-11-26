@@ -232,7 +232,7 @@ h3 {
 
 @keyframes img-a {
   to {
-    transform: scale(1.1) rotate(-20deg);
+    transform: scale(1.1);
   }
 }
 .button {
@@ -352,6 +352,9 @@ h3 {
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: var(--bg-color);
   box-shadow: 1px 1px 2px #CCC;
   border-radius: 0.7rem;
@@ -377,6 +380,7 @@ h3 {
 }
 .card-content .description {
   overflow: hidden;
+  padding: 0 1.1rem;
 }
 
 .i-am {

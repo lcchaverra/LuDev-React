@@ -1,4 +1,4 @@
-import HelloImg from "/src/img/baitface/4.png";
+import HelloImg from "/src/img/baitface/2.jpeg";
 
 const AboutMe = () => {
   return (
