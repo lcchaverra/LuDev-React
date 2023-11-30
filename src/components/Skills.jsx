@@ -34,7 +34,7 @@ const Skills = () => {
                 <img src={JsImg} />
                 <img src={TSImg}/>
                 <img src={ReactImg} />
-                <img src={ReduxImg}/>
+                {/* <img src={ReduxImg}/> */}
                 <img src={TailwindImg}/>
                 <img src={PhpImg} />
                 <img src={pyImg}/>

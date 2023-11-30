@@ -11,8 +11,8 @@ const Experience = () => {
             <ul className="letter-small">
               <li>
                 <strong>
-                  Fundador, Representante legal y Desarrollador de Software en
-                  Facnet (Mar 2022 - Actualidad)
+                  Desarrollador de Software en
+                  Facnet (Mar 2022 - Sep 2023)
                 </strong>
                 <p>
                   <ol>
@@ -51,7 +51,7 @@ const Experience = () => {
 
               <li>
                 <strong>
-                  Voluntariado Idiomas en Señas (Jul 2023 - Actualidad)
+                  Voluntariado Idiomas en Señas (Jul 2023 - Dic 2023)
                 </strong>
                 <p>
                   Desarrollé una landing page con React Para la iniciativa de
