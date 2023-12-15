@@ -10,8 +10,8 @@ import P10Img from "../img/projects/p10.png";
 import P11Img from "../img/projects/p11.png";
 import P12Img from "../img/projects/p12.png";
 import P13Img from "../img/projects/p13.png";
-import P14Img from "../img/projects/p14.png";
-import P15Img from "../img/projects/p15.png";
+import P14Img from "../img/projects/p14.jpg";
+import P15Img from "../img/projects/p15.jpg";
 
 export const ProjectsData = [
     {
