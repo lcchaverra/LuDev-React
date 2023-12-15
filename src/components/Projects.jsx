@@ -14,8 +14,8 @@ import P10Img from "/src/img/projects/p10.png";
 import P11Img from "/src/img/projects/p11.png";
 import P12Img from "/src/img/projects/p12.png";
 import P13Img from "/src/img/projects/p13.png";
-import P14Img from "/src/img/projects/net.png";
-import P15Img from "/src/img/projects/ins.png";
+import P14Img from "/src/img/projects/p14.png";
+import P15Img from "/src/img/projects/p15.png";
 
 const projects = [
   {
