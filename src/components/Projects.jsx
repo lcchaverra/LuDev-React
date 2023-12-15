@@ -2,7 +2,6 @@ import ProjectCard from "./ProjectCard";
 
 // Importacion de Imagenes
 import P1Img from "/src/img/projects/p1.png";
-import P2Img from "/src/img/projects/p2.png";
 import P3Img from "/src/img/projects/p3.png";
 import P4Img from "/src/img/projects/p4.png";
 import P5Img from "/src/img/projects/p5.png";
