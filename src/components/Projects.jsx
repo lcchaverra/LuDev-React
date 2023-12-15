@@ -13,7 +13,7 @@ import P10Img from "../img/projects/p10.png";
 import P11Img from "../img/projects/p11.png";
 import P12Img from "../img/projects/p12.png";
 import P13Img from "../img/projects/p13.png";
-import P14Img from "../img/projects/p14.png";
+// import P14Img from "../img/projects/p14.png";
 import P15Img from "../img/projects/p15.png";
 
 const projects = [
@@ -24,13 +24,13 @@ const projects = [
     description: "Clon de instagram realizado con React JS durante el bootcmap de desarrollo de software / Rio software",
     link: "https://instagram-clon-react-lu.netlify.app/",
   },
-  {
-    id: 14,
-    image: P14Img,
-    title: "Clon de Netflix",
-    description: "Clon de netflix creado con HTML, CSS, Javascript durante el bootcmap de desarrollo de software / Rio software",
-    link: "https://netflix-clon-rio.netlify.app/",
-  },
+  // {
+  //   id: 14,
+  //   image: P14Img,
+  //   title: "Clon de Netflix",
+  //   description: "Clon de netflix creado con HTML, CSS, Javascript durante el bootcmap de desarrollo de software / Rio software",
+  //   link: "https://netflix-clon-rio.netlify.app/",
+  // },
   {
     id: 13,
     image: P13Img,
