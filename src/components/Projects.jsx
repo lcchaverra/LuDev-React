@@ -1,20 +1,20 @@
 import ProjectCard from "./ProjectCard";
 
 // Importacion de Imagenes
-import P1Img from "/src/img/projects/p1.png";
-import P3Img from "/src/img/projects/p3.png";
-import P4Img from "/src/img/projects/p4.png";
-import P5Img from "/src/img/projects/p5.png";
-import P6Img from "/src/img/projects/p6.png";
-import P7Img from "/src/img/projects/p7.png";
-import P8Img from "/src/img/projects/p8.png";
-import P9Img from "/src/img/projects/p9.png";
-import P10Img from "/src/img/projects/p10.png";
-import P11Img from "/src/img/projects/p11.png";
-import P12Img from "/src/img/projects/p12.png";
-import P13Img from "/src/img/projects/p13.png";
-import P14Img from "/src/img/projects/p14.png";
-import P15Img from "/src/img/projects/p15.png";
+import P1Img from "../img/projects/p1.png";
+import P3Img from "../img/projects/p3.png";
+import P4Img from "../img/projects/p4.png";
+import P5Img from "../img/projects/p5.png";
+import P6Img from "../img/projects/p6.png";
+import P7Img from "../img/projects/p7.png";
+import P8Img from "../img/projects/p8.png";
+import P9Img from "../img/projects/p9.png";
+import P10Img from "../img/projects/p10.png";
+import P11Img from "../img/projects/p11.png";
+import P12Img from "../img/projects/p12.png";
+import P13Img from "../img/projects/p13.png";
+import P14Img from "../img/projects/p14.png";
+import P15Img from "../img/projects/p15.png";
 
 const projects = [
   {
