@@ -6,12 +6,12 @@ import MongoImg from '/src/img/tec/mongo.png';
 import PhpImg from '/src/img/tec/php.png';
 import GitImg from '/src/img/tec/git.png';
 import CsharpImg from '/src/img/tec/c-sharp.png';
+import NetImg from '/src/img/tec/net.png';
 import SqlImg from '/src/img/tec/sql-server.png';
 import ReactImg from '/src/img/tec/react.png';
 import TailwindImg from '/src/img/tec/Tailwind.png';
 import TSImg from '/src/img/tec/Ts.png';
 import FirebaseImg from '/src/img/tec/fire.png';
-import ReduxImg from '/src/img/tec/redux.png'
 import pyImg from '/src/img/tec/py.png'
 import sassImg from '/src/img/tec/sass.png'
 
@@ -34,11 +34,11 @@ const Skills = () => {
                 <img src={JsImg} />
                 <img src={TSImg}/>
                 <img src={ReactImg} />
-                {/* <img src={ReduxImg}/> */}
                 <img src={TailwindImg}/>
                 <img src={PhpImg} />
                 <img src={pyImg}/>
                 <img src={CsharpImg} />
+                <img src={NetImg}/>
                 <img src={SqlImg} />
                 <img src={MongoImg} />
                 <img src={FirebaseImg}/>
